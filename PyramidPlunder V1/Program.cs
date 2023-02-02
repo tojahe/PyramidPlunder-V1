@@ -17,6 +17,11 @@ namespace PyramidPlunder_V1
     {
         public static void Main(string[] args)
         {
+            Console.SetWindowSize(150, 50);
+            Console.BackgroundColor = ConsoleColor.DarkYellow;
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Black;
+
             Welcome.WelcomeToPyramidPlunder();
 
             Room room1 = new Room1();
@@ -24,15 +29,29 @@ namespace PyramidPlunder_V1
 
             Room room2 = new Room2();
             GoThroughRoom(room2);
-            
 
-            Room3.WelcomeToRoom3();
-            Room4.WelcomeToRoom4();
-            Room5.WelcomeToRoom5();
-            Room6.WelcomeToRoom6();
-            Room7.WelcomeToRoom7();
-            Room8.WelcomeToRoom8();
-            Room9.WelcomeToRoom9();
+            Room room3 = new Room3();
+            GoThroughRoom(room3);
+
+            Room room4 = new Room4();
+            GoThroughRoom(room4);
+
+            Room room5 = new Room5();
+            GoThroughRoom(room5);
+
+            Room room6 = new Room6();
+            GoThroughRoom(room6);
+
+            Room room7 = new Room7();
+            GoThroughRoom(room7);
+
+            Room room8 = new Room8();
+            GoThroughRoom(room8);
+
+            Room room9 = new Room9();
+            GoThroughRoom(room9);
+
+
             Room10.WelcomeToRoom10();
 
 

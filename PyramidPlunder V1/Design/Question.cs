@@ -28,10 +28,10 @@ namespace PyramidPlunder_V1.Design
         public void CheckAnswer()
         {
             if (UserAnswer.Trim().ToUpper() == _Answer.Trim().ToUpper())
-                Console.WriteLine("You answered correctly. The stone door opens..");
+                Console.WriteLine("You answered correctly. The stone door slides open allowing you to access the next room..");
             else
             {
-                Console.WriteLine("Wrong answer! You triggered a booby trap and fall to your death.");
+                Console.WriteLine("Wrong answer! You triggered a booby trap and fell to your death.");
 
                 throw new Exception("you're wrong ");
             }
