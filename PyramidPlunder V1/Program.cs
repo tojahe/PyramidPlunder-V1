@@ -1,6 +1,6 @@
 ﻿using System;
 using PyramidPlunder_V1.Design;
-using PyramidPlunder_V1.Design.Room1;
+using PyramidPlunder_V1.Design.Room_1;
 
 namespace PyramidPlunder_V1
 {

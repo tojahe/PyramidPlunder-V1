@@ -44,6 +44,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Design\Room 1\Room1.cs" />
+    <Compile Include="Design\Room 2\Room2.cs" />
+    <Compile Include="Design\Room 3\Room3.cs" />
+    <Compile Include="Design\Room 4\Room4.cs" />
+    <Compile Include="Design\Room 5\Room5.cs" />
+    <Compile Include="Design\Room 6\Room6.cs" />
+    <Compile Include="Design\Room 7\Room7.cs" />
+    <Compile Include="Design\Room 8\Room8.cs" />
+    <Compile Include="Design\Room 9\Room9.cs" />
+    <Compile Include="Design\Room Final\Room10.cs" />
     <Compile Include="Design\Welcome.cs" />
     <Compile Include="Design\Room 2\GeneralKnowledge1.cs" />
     <Compile Include="Design\Room 7\GeneralKnowledge2.cs" />
