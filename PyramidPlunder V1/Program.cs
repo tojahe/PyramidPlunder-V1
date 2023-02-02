@@ -17,10 +17,15 @@ namespace PyramidPlunder_V1
     {
         public static void Main(string[] args)
         {
-            
             Welcome.WelcomeToPyramidPlunder();
-            Room1.WelcomeToRoom1();
-            Room2.WelcomeToRoom2();
+
+            Room room1 = new Room1();
+            GoThroughRoom(room1);
+
+            Room room2 = new Room2();
+            GoThroughRoom(room2);
+            
+
             Room3.WelcomeToRoom3();
             Room4.WelcomeToRoom4();
             Room5.WelcomeToRoom5();
@@ -34,6 +39,13 @@ namespace PyramidPlunder_V1
 
             Console.ReadLine();
 
+        }
+
+        private static void GoThroughRoom(Room room)
+        {
+            room.Welcome();
+            room.AskQuestion();
+            room.CheckAnswer();
         }
     }
 }

@@ -43,9 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Design\Graphic.cs" />
+    <Compile Include="Design\Question.cs" />
     <Compile Include="Design\Room 1\Room1.cs" />
     <Compile Include="Design\Room 2\Room2.cs" />
-    <Compile Include="Design\Room 3\Room3.cs" />
     <Compile Include="Design\Room 4\Room4.cs" />
     <Compile Include="Design\Room 5\Room5.cs" />
     <Compile Include="Design\Room 6\Room6.cs" />
@@ -53,14 +54,13 @@
     <Compile Include="Design\Room 8\Room8.cs" />
     <Compile Include="Design\Room 9\Room9.cs" />
     <Compile Include="Design\Room Final\Room10.cs" />
+    <Compile Include="Design\Room.cs" />
     <Compile Include="Design\TheEnd.cs" />
     <Compile Include="Design\Welcome.cs" />
-    <Compile Include="Design\Room 2\GeneralKnowledge1.cs" />
     <Compile Include="Design\Room 7\GeneralKnowledge2.cs" />
     <Compile Include="Design\Room Final\PickAPath.cs" />
     <Compile Include="Design\Room 4\Riddle1.cs" />
     <Compile Include="Design\Room 9\Riddle2.cs" />
-    <Compile Include="Design\Room 1\Math1.cs" />
     <Compile Include="Design\Room 5\Math2.cs" />
     <Compile Include="Design\Room 8\Math3.cs" />
     <Compile Include="Program.cs" />

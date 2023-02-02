@@ -63,7 +63,7 @@ namespace PyramidPlunder_V1.Design
             Console.WriteLine($"Welcome {userName}. Good luck.");
             Console.WriteLine("");
             Console.WriteLine("Press enter to continue...");
-            Console.Read();
+            Console.ReadLine();
 
         }
 
