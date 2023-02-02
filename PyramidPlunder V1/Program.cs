@@ -17,6 +17,10 @@ namespace PyramidPlunder_V1
     {
         public static void Main(string[] args)
         {
+            try
+            {
+
+            
             Console.SetWindowSize(150, 50);
             Console.BackgroundColor = ConsoleColor.DarkYellow;
             Console.Clear();
@@ -57,8 +61,13 @@ namespace PyramidPlunder_V1
 
 
             Console.ReadLine();
-
-        }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                Console.ReadLine();
+            }
+            }
 
         private static void GoThroughRoom(Room room)
         {

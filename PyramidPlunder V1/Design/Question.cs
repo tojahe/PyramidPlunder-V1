@@ -33,7 +33,7 @@ namespace PyramidPlunder_V1.Design
             {
                 Console.WriteLine("Wrong answer! You triggered a booby trap and fell to your death.");
 
-                throw new Exception("you're wrong ");
+                throw new Exception("Try again.... ");
             }
         }
     }
