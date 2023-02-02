@@ -8,7 +8,7 @@ namespace PyramidPlunder_V1.Design
         
         public static void WelcomeToPyramidPlunder()
         {
-            string userName = "";
+            
             Console.WriteLine("Welcome to....");
             Console.WriteLine("");
             Console.WriteLine("");

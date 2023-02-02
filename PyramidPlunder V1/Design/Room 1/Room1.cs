@@ -1,5 +1,4 @@
 ﻿using System;
-using PyramidPlunder_V1.Design.Room1;
 
 namespace PyramidPlunder_V1.Design.Room_1
 {

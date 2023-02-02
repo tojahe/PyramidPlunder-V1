@@ -53,6 +53,7 @@
     <Compile Include="Design\Room 8\Room8.cs" />
     <Compile Include="Design\Room 9\Room9.cs" />
     <Compile Include="Design\Room Final\Room10.cs" />
+    <Compile Include="Design\TheEnd.cs" />
     <Compile Include="Design\Welcome.cs" />
     <Compile Include="Design\Room 2\GeneralKnowledge1.cs" />
     <Compile Include="Design\Room 7\GeneralKnowledge2.cs" />
