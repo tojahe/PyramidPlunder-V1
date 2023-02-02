@@ -41,15 +41,21 @@ namespace PyramidPlunder_V1.Design.Room_1
 
             if (Math1.Math1UserAnswer == Math1.Math1Answer)
                 Console.WriteLine("You answered correctly. The stone door opens..");
-
-            if (Math1.Math1UserAnswer != Math1.Math1Answer)
+            else
+            {
                 Console.WriteLine("Wrong answer! You triggered a booby trap and fall to your death.");
-            
+
+                throw new Exception("you're wrong ");
+            }
                 
+                
+
             
 
 
-            
+
+
+
         }
 
 
